@@ -5,6 +5,33 @@ html {
     /* font-size: 75%; */
 }
 
+.content{
+    padding-left: 10vw;
+    padding-right: 8vw;
+    
+}
+
+.nav{
+    display: block;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+
+ .nav-link{
+    font-size: 2rem;
+    color:bisque;
+    text-decoration: none;
+    margin-right: 1rem;
+ }
+ .nav-link:hover{
+    text-decoration: underline;
+ }
+ .nav-link:active{
+    color:skyblue
+ }
+
 h1,
 .h1{
   font-size: 4rem !important;
