@@ -10,16 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Aboreto&family=Castoro:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+
     <title>Meir Sedlis</title>
   </head>
   <body>
-
-
     <noscript
       >Ope! If you're seeing this, you've disabled JavaScript and my page is not
       going to load properly.</noscript
@@ -29,7 +30,6 @@
     </nav>
 
     <script>
-      // script to hide link to top until user has scrolled down the page
       myID = document.getElementById("nav");
 
       var myScrollFunc = function () {
@@ -45,11 +45,20 @@
       window.addEventListener("scroll", myScrollFunc);
     </script>
 
-
     <div class="content">
-      <img src="./images/drip.gif" class="banner-img" />
-      <h1 id="banner" class="fade-in">Meir David Sedlis</h1>
-      <p id="tagline" class="fade-in">full stack software engineer for hire</p>
+      <div id="banner-div">
+        <img src="./images/drip.gif" class="banner-img" />
+        <div class="color-block-navy" id="banner-block"/>
+        <h1 id="banner" class="fade-in">Meir David Sedlis</h1>
+        <p id="tagline" class="fade-in">
+          full stack software engineer | minneapolis <span class="stateface stateface-replace stateface-mn">Minnesota</span>
+        </p>
+        
+      </div>
+     
+
+        
+      
       <h1>Header 1</h1>
       <h2>Header 2</h2>
       <h3>Header 3</h3>

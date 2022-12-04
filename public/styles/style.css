@@ -1,0 +1,99 @@
+/* Style.css */
+/* Main stylesheet for index.html */
+
+html {
+    background: #b19671;
+    color: rgb(206, 193, 193);
+    font-family: "Castoro", "Helvetica", serif;
+    font-size:62.5%;
+    margin: 0 !important;
+}
+body{
+    margin: 0;
+}
+
+.content{
+   margin: 0% !important;
+}
+
+/* Nav to top */
+#nav{
+    display: block;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 1%;
+}
+.nav-show{
+    opacity: 1;
+}
+.nav-hide{
+    opacity: 0;
+}
+
+ .nav-link{
+    font-size: 2rem;
+    color: #efddd6;
+    text-decoration: none;
+    margin-right: 1rem;
+ }
+ .nav-link:hover{
+    text-decoration: underline;
+ }
+ .nav-link:active{
+    color:skyblue
+ }
+
+
+ /* Banner Section */
+
+ #banner-div
+
+.banner-img{
+   margin:0;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   width: 100%;
+   z-index: -1;
+   
+}
+
+#banner{
+    font-size: 9.4vw !important;
+    margin-bottom: 0;
+    margin-top: 26vw;
+    margin-left: 7.4vw;
+    color: #efddd6;
+    text-shadow: #6d635f 3px 0 3px;
+    font-family:'Aboreto';
+}
+
+
+
+#tagline{
+    font-size: 3.5vw !important;
+    margin-top: 0;
+    padding-left: 18vw;
+    color: #fff0ea;
+    animation: fadeInAnimation ease 12s;
+
+}
+#banner-block{
+    display: block;
+    height: 30vh;
+    margin-top: 450px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    z-index: -1;
+}
+
+.color-block-navy{
+    background-color: rgba(6, 26, 46);
+    /* min-height: 180px; */
+    width: 100vw;
+    margin: 0 !important;
+    left: 0;
+}
