@@ -30,15 +30,15 @@
     </nav>
 
     <script>
-      myID = document.getElementById("nav");
+      navID = document.getElementById("nav");
 
       var myScrollFunc = function () {
         var y = window.scrollY;
         if (y >= 400) {
-          myID.classList.remove("nav-hide");
-          myID.classList.add("nav-show");
+          navID.classList.remove("nav-hide");
+          navID.classList.add("nav-show");
         } else {
-          myID.classList.add("nav-hide");
+          navID.classList.add("nav-hide");
         }
       };
 
@@ -48,17 +48,18 @@
     <div class="content">
       <div id="banner-div">
         <img src="./images/drip.gif" class="banner-img" />
-        <div class="color-block-navy" id="banner-block"/>
+        <div class="color-block-navy" id="banner-block" />
         <h1 id="banner" class="fade-in">Meir David Sedlis</h1>
         <p id="tagline" class="fade-in">
-          full stack software engineer | minneapolis <span class="stateface stateface-replace stateface-mn">Minnesota</span>
+          full stack software engineer |<span id="minneapolis">
+            minneapolis
+            <span class="stateface stateface-replace stateface-mn"
+              >Minnesota</span
+            ></span
+          >
         </p>
-        
       </div>
-     
 
-        
-      
       <h1>Header 1</h1>
       <h2>Header 2</h2>
       <h3>Header 3</h3>
