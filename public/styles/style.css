@@ -101,3 +101,9 @@ body {
     display:flex;
     flex-direction: row;
 }
+
+/* About section*/
+
+#pet-img{
+    height: 40vh;
+}
